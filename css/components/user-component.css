@@ -45,4 +45,5 @@
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.4);
     font-weight: 500;
+    font-size: 17px;
 }

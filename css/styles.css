@@ -8,10 +8,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/search.css";
 
 body{
 /*
@@ -28,4 +30,8 @@ http://scripts.sil.org/OFL
 	font-display: swap;
 	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
 	height: 120vh;
+}
+
+.main-screen {
+	padding: 0px var(--horizontal-space);
 }

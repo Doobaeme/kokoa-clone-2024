@@ -1,0 +1,35 @@
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: tomato;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+}
+
+.badge-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+}
+
+.badge-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+}

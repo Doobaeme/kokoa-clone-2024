@@ -20,8 +20,14 @@
     margin-left: 20px;
 }
 
-.screen-header__notice {
+.screen-header__notice-search {
     position: absolute;
     left: 73px;
+    bottom: 21px;
+}
+
+.screen-header__notice-more {
+    position: absolute;
+    left: 121px;
     bottom: 21px;
 }

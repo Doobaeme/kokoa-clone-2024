@@ -67,7 +67,6 @@
 }
 
 .open-post__hashtags {
-    text-transform: uppercase;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.4);
 }
@@ -102,6 +101,10 @@
     color: #fd4eba;
 }
 
+.open-post__photo {
+    position: relative;
+}
+
 .open-post__photo img {
     width: 105px;
     height: 105px;
@@ -109,9 +112,28 @@
 }
 
 .open-post__heart-count {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 10px 5px 10px;
     font-size: 15px;
-    border-radius: 20px;
+    font-weight: 300;
+    border-radius: 12px;
     color: white;
+    bottom: 10px;
+    right: 7px;
+}
+
+.open-post__heart-count span {
+    margin-left: 5px;
+}
+
+.open-post:last-child  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+    padding-top: 12px;
 }

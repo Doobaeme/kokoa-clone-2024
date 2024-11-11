@@ -17,6 +17,7 @@
 @import "screens/search.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body{
 /*
@@ -32,7 +33,6 @@ http://scripts.sil.org/OFL
 	font-style: normal;
 	font-display: swap;
 	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
-	height: 120vh;
 }
 
 .main-screen {

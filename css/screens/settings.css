@@ -1,17 +1,20 @@
 .settings__setting {
-    padding: 23.5px 0;
-    border-bottom: 1px solid rgba(227, 227, 227, 0.3);
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.settings__setting span {
+    padding: 23.5px 0 23.5px 10px;
+    border-bottom: 1px solid rgba(227, 227, 227, 0.3);
     font-size: 22px;
 }
 
+.settings__setting-column {
+    display: flex;
+    align-items: center;
+}
+
 .settings__setting i {
-    margin: 0 16px 0 10px;
+    font-size: 24px;
+    margin-right: 20px;
 }
 
 .settings__setting:nth-child(3) {

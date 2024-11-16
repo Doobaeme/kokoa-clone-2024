@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat2 - KokoaTalk</title>
+  </head>
+  <body id="chat-screen">
+    <!-- 1. 핸드폰 상단바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <!-- 2. 상단 헤더 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Tristan+Isolde</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-2xl"></i></span>
+      </div>
+    </header>
+    <!-- 메인페이지 -->
+    <main class="main-screen main-chat">
+      <!-- 3. 타임스탬프 -->
+      <div class="chat__timestamp">Tuesday, Nov 12, 2024</div>
+      <!-- 4. 대화 메세지 1 -->
+      <div class="message-row">
+        <img src="src/여자사진2.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Soki</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >I just finished putting the kids to bed</span
+            >
+            <span class="message__time">16:03</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진2.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Soki</span>
+          <div class="message__info">
+            <span class="message__bubble">any Netflix recommendations?</span>
+            <span class="message__time">16:03</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진1.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Goojin</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >There's nothing good to watch on Netflix these days.</span
+            >
+            <span class="message__time">16:09</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진3.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Nana</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >I've been watching a lot of YouTube lately.</span
+            >
+            <span class="message__time">16:10</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진2.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Soki</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >What are young people watching on YouTube these days?</span
+            >
+            <span class="message__time">16:12</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진4.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Jiong</span>
+          <div class="message__info">
+            <span class="message__bubble">Jiong Melody</span>
+            <span class="message__time">16:20</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="src/여자사진3.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Nana</span>
+          <div class="message__info">
+            <span class="message__bubble">Rewatching Infinite Challenge!</span>
+            <span class="message__time">16:21</span>
+          </div>
+        </div>
+      </div>
+      <!-- 5. 대화 메세지 2 -->
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">I like Myungsoo-ong.</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 6. 키보드 입력란 -->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Hi!" />
+        <i class="fa-regular fa-face-grin fa-xl"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-2xl"></i>
+        </button>
+      </div>
+    </form>
+    <!-- 폰트어썸 아이콘 적용을 위한 스크립트 -->
+    <script
+      src="https://kit.fontawesome.com/d67964558f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

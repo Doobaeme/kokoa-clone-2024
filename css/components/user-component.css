@@ -16,6 +16,23 @@
     margin-right: 18px;
 }
 
+.user-component__multi {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    margin-right: 18px;
+}
+
+.user-component__multi img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 1px;
+}
+
 .user-component__title{
     font-size: 22px;
     font-weight: 600;

@@ -194,5 +194,6 @@
 }
 
 .reply__column input::placeholder {
-    color: black;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
 }
